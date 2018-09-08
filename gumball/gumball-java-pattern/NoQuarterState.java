@@ -11,6 +11,13 @@ public class NoQuarterState implements State {
 		System.out.println("You inserted a quarter");
 		gumballMachine.setState(gumballMachine.getHasQuarterState());
 	}
+	
+	
+	public void insertCoins(int coins) {
+		System.out.println("You inserted a quarter");
+		gumballMachine.setState(gumballMachine.getHasQuarterState());
+	}
+	
  
 	public void ejectQuarter() {
 		System.out.println("You haven't inserted a quarter");

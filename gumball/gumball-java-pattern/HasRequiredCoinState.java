@@ -1,11 +1,8 @@
 
-
-import java.util.Random;
-
-public class HasQuarterState implements State {
+public class HasRequiredCoinState implements State {
 	GumballMachine gumballMachine;
  
-	public HasQuarterState(GumballMachine gumballMachine) {
+	public HasRequiredCoinState(GumballMachine gumballMachine) {
 		this.gumballMachine = gumballMachine;
 	}
   

@@ -10,6 +10,11 @@ public class SoldOutState implements State {
 	public void insertQuarter() {
 		System.out.println("You can't insert a quarter, the machine is sold out");
 	}
+	
+	
+	public void insertCoins(int coins) {
+		System.out.println("You can't insert a quarter, the machine is sold out");
+	}
  
 	public void ejectQuarter() {
 		System.out.println("You can't eject, you haven't inserted a quarter yet");
