@@ -1,6 +1,7 @@
 CRC Cards
 
 1) Customer
+
 Knows a.) name
       b.) phone number
       c.) no. of people in the group
@@ -12,6 +13,7 @@ Collaborators
       
 
 2) CellPhone/Restaurant
+
   Responsibilities
                 a.) Register(Customer c)
                 b.) Unregister(Customer c)
@@ -21,11 +23,14 @@ Collaborators
               
               
 3) Table
+
   Knows
         a.) no_of_seats
         b.)table_number
+
   Responsibilities
         a.) isAvailable()
+
 Collaborators
         Cellphone/Restaurant
   
