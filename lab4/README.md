@@ -1,8 +1,54 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf400
-{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww10800\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+CRC Cards
 
-\f0\fs24 \cf0 Lab4}
+1) Customer
+
+Knows a.) name
+      b.) phone number
+      c.) no. of people in the group
+Responsibilities
+      a.) Accecpt invitation
+      b.) Leave
+Collaborators
+      a.) Cellphone/Restaurant
+      
+
+2) CellPhone/Restaurant
+
+  Responsibilities
+                a.) Register(Customer c)
+                b.) Unregister(Customer c)
+                c.) notify()
+  Collaborators
+              Table
+              
+              
+3) Table
+
+  Knows
+        a.) no_of_seats
+        b.)table_number
+
+  Responsibilities
+        a.) update table status
+
+Collaborators
+        Cellphone/Restaurant and waitlist
+  
+  
+4) Waitlist
+  Knows
+        a.) waitlist_number
+Responsibilities
+        a.)add customer
+        b.)remove customer
+        c.) check if the current group is eligible for the table
+        
+
+I will implement the Observer design pattern for this restaurant system. Here Customer will be the observer and restaurant will be the subject. Any change in the table status will be communicated to the Restaurant(Subject) which in turn will broadcast it to the customer(Observer).
+        
+              
+The Second design pattern that will fit this system is State design pattern. The table will have two states at any point of time i.e. vacant and occupied. These states will define the actions taken by the restaurant.
+              
+              
+       
+      
