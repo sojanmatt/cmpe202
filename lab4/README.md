@@ -47,6 +47,7 @@ Responsibilities
 I will implement the Observer design pattern for this restaurant system. Here Customer will be the observer and restaurant will be the subject. Any change in the table status will be communicated to the Restaurant(Subject) which in turn will broadcast it to the customer(Observer).
         
               
+The Second design pattern that will fit this system will be State design pattern. The table will have two states at any point of time i.e. vacant and occupied. These states will define the actions taken by the restaurant.
               
               
        
