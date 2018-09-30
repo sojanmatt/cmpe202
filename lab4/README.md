@@ -29,10 +29,10 @@ Collaborators
         b.)table_number
 
   Responsibilities
-        a.) isAvailable()
+        a.) update table status
 
 Collaborators
-        Cellphone/Restaurant
+        Cellphone/Restaurant and waitlist
   
   
 4) Waitlist
